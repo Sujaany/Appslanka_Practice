@@ -11,8 +11,3 @@
 </div>
 @endsection
 
-@section('footer')
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">All right reserved @appsLanka</a>
-</nav>
-@endsection
