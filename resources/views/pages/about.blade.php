@@ -13,6 +13,6 @@
 
 @section('footer')
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">All right reserved @appsLanka</a>
+  <a class="navbar-brand" href="#">All right reserved @invictaInnovation</a>
 </nav>
 @endsection

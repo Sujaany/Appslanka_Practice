@@ -5,8 +5,8 @@
 @section('content')
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Contact Us</h1>
-    <p class="lead">invictaInnovation.lk</p>
+    <h1 class="display-4">Blog</h1>
+    <p class="lead">Welcome to blog </p>
   </div>
 </div>
 @endsection
@@ -16,5 +16,3 @@
   <a class="navbar-brand" href="#">All right reserved @invictaInnovation</a>
 </nav>
 @endsection
-
-
