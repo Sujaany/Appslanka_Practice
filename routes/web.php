@@ -21,3 +21,5 @@ Route::get('/gallery','PageController@gallery');
 Route::get('/contact', 'PageController@contact');
 Route::get('/teams','PageController@teams');
 Route::get('/blog','PageController@blog');
+
+Route::get('/posts','PostController@index');

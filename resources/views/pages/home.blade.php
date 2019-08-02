@@ -7,6 +7,18 @@
   <div class="container">
     <h1 class="display-4">Welcome to {{$name}} </h1>
     <p class="lead">{{$tagline}}</p>
+    
+    @if ( $hour <12 ) 
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Hi, Good Morning!!!</h4>
+      </div>
+} @else <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Hi, Good Day!!!</h4>
+    </div>
+
+@endif
+ 
+
   </div>
 </div>
 

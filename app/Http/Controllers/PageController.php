@@ -8,8 +8,13 @@ class PageController extends Controller
 {
     public function home() 
     {
-        return view('pages.home',['name'=>'Invicta Innovation Software Solutions',
-        'tagline'=>'Let us Make some innovative applications'
+        date_default_timezone_set('Asia/Calcutta');
+        $hour=date('G');
+        $hour=12;
+        return view('pages.home',
+        ['name'=>'Invicta Innovation Software Solutions',
+        'tagline'=>'Let us Make some innovative applications',
+        'hour'=> $hour
         ]);
 }
 
@@ -37,7 +42,10 @@ public function contact()
 }
 public function teams()
 {
-    return view('pages.teams');
+    return view('pages.teams',
+    [
+        "totalmembers"=>30
+    ]);
 }
 public function blog()
 {
